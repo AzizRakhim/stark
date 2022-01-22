@@ -1212,3 +1212,143 @@ body{
 
 /* scroll end */
 /* footer start */
+
+.site-footer{
+    background: #23282e;
+}
+
+.footer-top{
+    padding: 100px 0 30px;
+}
+
+.footer-logo{
+    text-decoration: none;
+}
+
+.footer-email-part{
+    padding-bottom: 1rem;
+    margin: 40px auto 20px;
+}
+
+.color-control{
+    background-color: #fff;
+}
+
+.newsletter-entry{
+    padding: 0 30px;
+    margin-right: 10px;
+    line-height: 55px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #222;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.newsletter-entry::after{
+    content: "";
+    display: inline-block;
+    background: #f2f2f2;
+    width: 1px;
+    height: 30px;
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+    transform: translateY(50%);
+}
+
+input[type="email"]{
+    border: 1px solid #FFF;
+    color: #999;
+    background-color: #FFF;
+    height: 55px;
+    font-size: 14px;
+    width: 400px;
+    padding: 0 12px;
+}
+
+input[type="email"]:focus{
+    outline: none;
+}
+
+.email-btn{
+    background: #000;
+    height: 55px;
+    text-transform: uppercase;
+    border: none;
+    color: #FFF;
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.email-btn:hover{
+    background: #d88f0f;
+    color: #FFF;
+}
+
+.social-icons{
+    padding-bottom: 1rem;
+    margin-bottom: 80px;
+}
+
+.social-link{
+    color: #FFF;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-text-lists{
+    padding-top: 30px;
+    padding-bottom: 1rem;
+}
+
+.texts-list{
+    list-style: none;
+}
+
+.texts-item{
+    padding: 0 15px;
+}
+
+.texts-link{
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.texts-link:hover{
+    color: #d88f0f;
+}
+
+.footer-bottom{
+    padding: 30px 0;
+    border-top: 1px solid rgba(255,255,255,.1);
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.copyright{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.copyright-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+.cards{
+    padding-right: 15px;
+    padding-left: 15px;
+}

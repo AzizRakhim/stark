@@ -1059,3 +1059,156 @@ body{
     color: #fff;
     border-color: transparent;
 }
+
+/* shop end  */
+/* blog start */
+
+.blog-heading{
+    margin: 50px 0 40px;
+    line-height: 1;
+}
+
+.blog-title{
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+    color: #222;
+}
+
+.blog-text{
+    color: #666;
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 16px;
+}
+
+.blog-item{
+    padding: 0 15px;
+}
+
+.blog-img{
+    overflow: hidden;
+}
+
+.blog-inner-link{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 15px 0 20px;
+    font-weight: 600;
+    color: #222;
+    text-decoration: none;
+}
+
+.hashtag{
+    margin-bottom: 20px;
+}
+
+.hashtag-link{
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222;
+}
+
+.hashtag-date{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.blog-inner-desc{
+    margin-bottom: 25px;
+}
+
+.blog-real-desc{
+    color: #666;
+    line-height: 1.25em;
+}
+
+.continue-link{
+    display: inline-block;
+    padding-bottom: 3px;
+    font-size: 16px;
+    border-bottom: 1px solid;
+    text-decoration: none;
+    color: #222;
+}
+
+.blog-link img{
+    transition: all 0.5s ease;
+}
+
+.blog-item:hover .blog-link img{
+    transform: rotate(5deg) scale(1.1);
+}
+
+.blog-inner-link:hover{
+    color: #d88f0f;
+}
+
+.hashtag-link:hover{
+    color: #d88f0f;
+}
+
+.continue-link:hover{
+    color: #d88f0f;
+}
+
+.blog-btns{
+    margin: 40px 0 80px;
+}
+
+.blog-btn{
+    display: inline-block;
+    border: 1px solid #e6e6e6;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 40px;
+    min-width: 200px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #222;
+}
+
+.blog-btn:hover{
+    background: #222;
+    color: #fff;
+}
+
+/* blog end */
+/* scroll start */
+
+.scroll-list{
+    background: #f7f7f7;
+    padding: 20px 0;
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+}
+
+.scroll-link{
+    text-decoration: none;
+}
+
+.scroll-link img{
+    display: block;
+    margin: 0 auto;
+    animation: scroll-img 5s ease-in-out infinite;
+}
+
+@keyframes scroll-img{
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+    }
+
+    100%{
+        transform: translate3d(-1266px, 0px, 0px);
+    }
+}
+
+/* scroll end */
+/* footer start */

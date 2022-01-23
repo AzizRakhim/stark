@@ -1352,3 +1352,139 @@ input[type="email"]:focus{
     padding-right: 15px;
     padding-left: 15px;
 }
+
+/* footer end */
+/* upward start */
+
+.upward{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(10, 124, 255);;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.bxl-messenger{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 50px;
+}
+
+.upward-info{
+    padding: 32px 24px;
+    background-color: #fff;
+    border-radius: 18px;
+    width: 375px;
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    z-index: 12321;
+    display: none;
+}
+
+.dots{
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    margin: 0 0 0 12px;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.upward-title{
+    margin: 23px 0 0 0;
+}
+
+.upward-real-title{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.warn-info{
+    color: rgba(0, 0, 0, .5);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    margin: 4px 0 0 0;
+}
+
+.reply{
+    color: #000;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 16px;
+}
+
+.upward-btn{
+    margin: 24px -4px 20px -4px;
+}
+
+.messenger{
+    background-color: rgb(10, 124, 255);
+    border-radius: 16px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 20px 30px;
+    position: relative;
+}
+
+.messenger .bxl-messenger{
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+    color: #fff;
+    left: 95px;
+}
+
+.messenger:hover{
+    background-color: rgb(11, 91, 182);
+}
+
+.guest{
+    background-color: rgba(0, 0, 0, .05);
+    border-radius: 16px;
+    cursor: pointer;
+    margin: 12px 0;
+    padding: 20px 30px;
+}
+
+.uest-txt{
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.guest:hover{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+.terms-txt{
+    color: rgba(0, 0, 0, .5);
+    font-size: 13px;
+    line-height: 18px;
+    display: inline-block;
+}
+
+.guest-link{
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.dick{
+    display: block;
+}

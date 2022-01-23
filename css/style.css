@@ -1293,6 +1293,7 @@ input[type="email"]:focus{
 .social-icons{
     padding-bottom: 1rem;
     margin-bottom: 80px;
+    list-style: none;
 }
 
 .social-link{

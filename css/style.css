@@ -929,9 +929,11 @@ body{
 }
 
 .products{
-    width: 100%;
+    max-width: 1263px;
     height: 759px;
     display: grid;
+    margin-right: auto;
+    margin-left: auto;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 30px;
